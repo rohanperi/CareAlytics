@@ -32,7 +32,7 @@ body{
 #secondMap {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .col {
@@ -62,17 +62,15 @@ footer {
 }
 
 .btn {
-  font-weight: 700;
   border-radius: 300px;
-  text-transform: uppercase;
-    
+  text-transform: uppercase;   
 }
 
 .btn-primary {
   background-color: #F05F44;
   border-color: #F05F44;
-  padding-left: 30px;
-}
+  align-content: center;
+  }
 
 .btn-primary:hover {
   background-color: #ee4b08;

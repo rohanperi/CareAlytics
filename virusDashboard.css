@@ -62,7 +62,6 @@ footer {
 }
 
 .btn {
-  font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
     
@@ -71,7 +70,7 @@ footer {
 .btn-primary {
   background-color: #F05F44;
   border-color: #F05F44;
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 .btn-primary:hover {

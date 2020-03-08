@@ -1,0 +1,30 @@
+<%- include ("partials/header")%>
+
+<h1>
+	THIS IS WHERE THE COUNTRY DATA IS 
+</h1>
+
+<% country.forEach(function (country){%>
+<div>
+	<h2>
+		<%=country.Country%>
+	</h2>
+	
+<h2>
+		<%=country.Population%>
+	</h2>
+	<h2>
+		<%=country.confirmedCases%>
+	</h2>
+	<h2>
+		<%=country.suspectedCases%>
+	</h2>
+	<h2>
+		<%=country.Deaths%>
+	</h2>
+	
+	
+</div>
+
+<% }) %>
+<%- include ("partials/footer")%>

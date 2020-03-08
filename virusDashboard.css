@@ -60,3 +60,26 @@ footer {
 .col-md-6 {
   padding-bottom: 70px;
 }
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+    
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  padding-left: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.list-group {
+    padding-bottom: 30px;
+}

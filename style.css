@@ -14,10 +14,14 @@ html {
 h1 {
   font-size: 3rem;
   color: #e2dbdb;
-  padding-right: 20px;
-  padding-top: 300px;
+  padding-left: 50px;
 }
 
+hr {
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 65px;
+}
 
 .buffer {
   height: 10rem;
@@ -32,6 +36,7 @@ h1 {
 .btn-primary {
   background-color: #F05F44;
   border-color: #F05F44;
+  padding-left: 30px;
 }
 
 .btn-primary:hover {
@@ -45,7 +50,7 @@ h1 {
 }
 
 .form-group {
-  padding-left: 20px;
+  padding-left: 30px;
   padding-bottom: 35px;
 }
 
@@ -56,7 +61,7 @@ h3{
 #mainMap {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 30px;
 }
 
 
@@ -66,18 +71,7 @@ h3{
 }
 
 .container {
-  padding-top: 100px;
+  padding-left: 100px;
 }
 
-footer {
-  padding-top: 25px;
-  padding-bottom: 15px;
-  text-align: right;
-  padding-left: 50px;
-  font-size: 12px;
-}
-
-.input-group {
-
-}
 

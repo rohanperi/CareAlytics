@@ -14,14 +14,10 @@ html {
 h1 {
   font-size: 3rem;
   color: #e2dbdb;
-  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 300px;
 }
 
-hr {
-  border-color: #F05F44;
-  border-width: 3px;
-  max-width: 65px;
-}
 
 .buffer {
   height: 10rem;
@@ -70,7 +66,7 @@ h3{
 }
 
 .container {
-  padding-left: 100px;
+  padding-top: 100px;
 }
 
 footer {
@@ -79,5 +75,9 @@ footer {
   text-align: right;
   padding-left: 50px;
   font-size: 12px;
+}
+
+.input-group {
+
 }
 

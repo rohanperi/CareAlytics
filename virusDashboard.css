@@ -25,11 +25,8 @@ body{
     height: 10%;
     margin-top:2%;
     margin-left: 17.5%;
-    opacity: 0.9;
+    opacity: 0.6;
 }
-
-
-
 
 .col {
     background-color: gray;
@@ -43,5 +40,16 @@ body{
 
 h3{
     color: white;
-    font-weight: bold;
+}
+
+li{
+  vertical-align: middle;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: right;
+  padding-left: 50px;
+  font-size: 12px;
 }

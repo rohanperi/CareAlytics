@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/shapes.jpg");
+    background-attachment: fixed;
+}
+.welcomeText{
+    vertical-align: middle;
+
+}
+.jumbotron{   
+    width: 65%;
+    height: 10%;
+    margin-top:2%;
+    margin-left: 17.5%;
+    opacity: 0.9;
+}
+
+
+
+
+.col {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}

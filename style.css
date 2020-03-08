@@ -54,6 +54,14 @@ hr {
   padding-bottom: 35px;
 }
 
+footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: right;
+  padding-left: 50px;
+  font-size: 12px;
+}
+
 h3{
   color: white;
 }
@@ -61,7 +69,7 @@ h3{
 #mainMap {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 8px;
 }
 
 

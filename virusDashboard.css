@@ -29,7 +29,11 @@ body{
 }
 
 
-
+#secondMap {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 .col {
     background-color: gray;
@@ -44,4 +48,8 @@ body{
 h3{
     color: white;
     font-weight: bold;
+}
+
+.col-md-6 {
+  padding-bottom: 70px;
 }

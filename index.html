@@ -10,11 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -39,53 +35,56 @@
         <div class="buffer col-12"></div>
         <section class="text-center col-12">
           
-
-
           <!--SEARCHBAR-->
-   <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Country</a>
-      <a class="dropdown-item" href="#">City</a>
-      <a class="dropdown-item" href="#">Person</a>
-    </div>
-  </div>
-  <input type="text" class="form-control" id="text" "aria-label="Text input with dropdown button">
-         <script>
-                    var text = document.getElementById("text");   
-                    if(text = "Canada"){
-                                                                               
-                                                                              
-                                      
-                                    }
-                                                           
-                                      </script>
- 
-                                                
-</div>
 
-
-   <!--   <form>
         <div class="form-group">
           <input class="form-control" id="inputFiled" aria-describedby="inputMain" placeholder="Enter Country">
         </div>
-        <button type="submit" id="mainButton" class="btn btn-primary btn-xl" href="virusDashboard.html">GO</button>
+       
       </form>
+    <!-- PUTTING IN THE OR -->
+      <div class=" row vertical-center">
+          <div class = "text-center">
+              <h2 class="display-4"><b>OR</b></h2>
+          </div>
+          
+          
+     </div>
+  <form>
+        <div class="form-group">
+          <input class="form-control" id="inputFiled2" aria-describedby="inputMain" placeholder="Enter City">
+        </div>
+      </form>
+            
+    <button onclick = "validate()" type="submit" class="btn btn-primary btn-xl" >GO</button>
+            
+            
+        <script type = "text/javascript">
+            function validate()
+                {
+                    if(document.getElementById("inputFiled2").value == "toronto"){
+                        window.open('toronto.html');
+                    } else if (document.getElementById("inputFiled").value == "china"){
+                        window.open('virusDashboard.html');
+                    }else{
+                        alert("validation failed");
+                    }
+                    
+                }
+                       
+            </script>
 
  
         </section>
       </div>
     </div>
--->
-
 
      <!-- LEFT BOX -->
     <div class="container">
       <div class="row">
         <div class="col-md-6">
         
-            <h3>Mapping the Coronavirus Outbreak</h3>
+            <h3>Coronavirus Worldwide</h3>
             <img id="mainMap" src="worldwideMap.png">
         
         <!-- RIGHT BOX -->
@@ -95,19 +94,19 @@
           <h3>Global Data</h3>
             <ul class="list-group">
               <li class="list-group-item">
-                Population:               
+                Population: 7,530,000,000 People              
                 </li>
               <li class="list-group-item">
-                Total Confirmed Cases:
-                </li> 
+                Total Confirmed Cases: 107,736 Cases
+                
               <li class="list-group-item">
-                Total Deaths: 
+                Total Deaths: 3,661 Deaths
                </li> 
               <li class="list-group-item">
-                Risk Probability:
+                Risk Probability: 0.001%
                </li>
                <li class="list-group-item">
-                Fatality Rate:
+                Fatality Rate: 3.4%
                </li>
             </ul>
         </div>
@@ -115,7 +114,7 @@
     </div>
 
     <!-- FOOTER --> 
-    <footer> <font color=" #e5dedd">Last updated: 08/03/2020 11:00am </font>
+    <footer> <font color="#e5dedd">Last updated: 08/03/2020 11:00am </font>
     </footer>
   </body>
 </html>

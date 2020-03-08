@@ -59,13 +59,19 @@ h3{
 #mainMap {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 
 .col-md-6 {
   padding-bottom: 70px;
+}
 
+footer {
+  padding-bottom: 20px;
+  text-align: right;
+  padding-left: 50px;
+  font-size: 12px;
 }
 
 

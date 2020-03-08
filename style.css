@@ -49,7 +49,8 @@ hr {
 }
 
 .form-group {
-  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-bottom: 35px;
 }
 
 h3{
@@ -59,19 +60,17 @@ h3{
 #mainMap {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 
 .col-md-6 {
   padding-bottom: 70px;
+
 }
 
-footer {
-  padding-bottom: 20px;
-  text-align: right;
-  padding-left: 50px;
-  font-size: 12px;
+.container {
+  padding-left: 100px;
 }
 
 

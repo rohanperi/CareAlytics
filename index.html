@@ -40,8 +40,39 @@
         <div class="form-group">
           <input class="form-control" id="inputFiled" aria-describedby="inputMain" placeholder="Enter Country">
         </div>
-        <button type="submit" class="btn btn-primary btn-xl" href="virusDashboard.html">GO</button>
+       
       </form>
+    <!-- PUTTING IN THE OR -->
+      <div class=" row vertical-center">
+          <div class = "text-center">
+              <h2 class="display-4"><b>OR</b></h2>
+          </div>
+          
+          
+     </div>
+  <form>
+        <div class="form-group">
+          <input class="form-control" id="inputFiled2" aria-describedby="inputMain" placeholder="Enter City">
+        </div>
+      </form>
+            
+    <button onclick = "validate()" type="submit" class="btn btn-primary btn-xl" >GO</button>
+            
+            
+        <script type = "text/javascript">
+            function validate()
+                {
+                    if(document.getElementById("inputFiled2").value == "toronto"){
+                        window.open('toronto.html');
+                    } else if (document.getElementById("inputFiled").value == "china"){
+                        window.open('virusDashboard.html');
+                    }else{
+                        alert("validation failed");
+                    }
+                    
+                }
+                       
+            </script>
 
  
         </section>
@@ -63,13 +94,13 @@
           <h3>Global Data</h3>
             <ul class="list-group">
               <li class="list-group-item">
-                <label>Population: </label> 
+                <label>Population: 7,530,000,000 </label> 
               </li>
               <li class="list-group-item">
-                Total Confirmed Cases:
+                Total Confirmed Cases: 107. 736 Cases
                 
               <li class="list-group-item">
-                Total Deaths: 
+                Total Deaths: 3,661 Deaths
                </li> 
               <li class="list-group-item">
                 Risk Probability:

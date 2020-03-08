@@ -1,0 +1,85 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/shapes.jpg");
+    background-attachment: fixed;
+}
+.welcomeText{
+    vertical-align: middle;
+
+}
+.jumbotron{   
+    width: 65%;
+    height: 10%;
+    margin-top:2%;
+    margin-left: 17.5%;
+    opacity: 0.6;
+}
+
+
+#secondMap {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.col {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: right;
+  padding-left: 50px;
+  font-size: 12px;
+}
+
+.col-md-6 {
+  padding-bottom: 70px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+    
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  padding-left: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.list-group {
+    padding-bottom: 30px;
+}

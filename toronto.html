@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="virusDashboard.css">
+    <link rel="stylesheet" type="text/css" href="toronto.css">
   </head>
   <body>
   
@@ -33,7 +33,7 @@
     <div class="jumbotron vertical-center">
         <div class="container">
           <div class = "text-center">
-              <h2 class="display-4"><b>China</b></h2>
+              <h2 class="display-4"><b>Toronto</b></h2>
           </div>
         </div>  
   
@@ -45,8 +45,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-             <h3>Map of Coronavirus in China</h3>
-            <img id="secondMap" src="chinaCoronavirus.png">
+             <h3>Cases near me:</h3>
+            <img id="secondMap" src="toronto.png">
 
         <!-- RIGHT BOX -->
         </div>
@@ -55,22 +55,32 @@
           <h3>Data</h3>
             <ul class="list-group">
               <li class="list-group-item">
-                Population: 1,386,000,000 People
+                Population: 2,954,024 people
               </li>
               <li class="list-group-item">
-                Total Confirmed Cases: 80,600+ Cases
+                Total Confirmed Cases: 28 cases
                 
               <li class="list-group-item">
-                Total Deaths: 3,073+ Deaths
+                Total Deaths: 0
                </li> 
               <li class="list-group-item">
-                Risk Probability: 0.058%
+                Risk Probability:0.001%
                </li>
                <li class="list-group-item">
-                Fatality Rate: 0.0022%
+                Fatality Rate: 0%
                </li>
 
             </ul>
+            
+        
+        <button type="button" class="btn btn-primary" onclick="runItBack()">Find out More on how we Calculated Risk Probability</button>
+        
+        <script type="text/javascript">
+            function runItBack() {
+                window.open("RiskCountry.html");
+            }
+        
+        </script>
         </div>
       </div>
     </div>
